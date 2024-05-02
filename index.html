@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style></style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./stuff.js"></script>
+    <title>Document</title>
+  </head>
+  <body >
+    <div id="container">
+      <div id="box" onclick="doorInfoAppear()"></div>
+      <button
+        id="buttonright"
+        style="margin: 20px"
+        onmousedown="startMovingRight()"
+        onmouseup="stopMovingRight()"
+        onmouseleave="stopMovingRight()"
+      >
+        GO RIGHT
+      </button>
+      <button
+        id="buttonleft"
+        style="margin: 20px"
+        onmousedown="startMovingLeft()"
+        onmouseup="stopMovingLeft()"
+        onmouseleave="stopMovingLeft()"
+      >
+        GO LEFT
+      </button>
+      <button
+      id="buttonup"
+      style="margin: 20px"
+      onmousedown="startMovingUp()"
+      onmouseup="stopMovingUp()"
+      onmouseleave="stopMovingUp()"
+    >
+      GO UP
+    </button>
+    <button
+    id="buttondown"
+    style="margin: 20px"
+    onmousedown="startMovingDown()"
+    onmouseup="stopMovingDown()"
+    onmouseleave="stopMovingDown()"
+  >
+    GO DOWN
+  </button>
+  <div id="door"></div>
+  <div id="info-door" >THIS IS THE DOOR. YOU CAN GO THROUGH IT TO ENTER THE NEXT LOCATION</div>
+    </div>
+  </body>
+</html>

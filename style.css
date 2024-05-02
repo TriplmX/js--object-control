@@ -1,0 +1,70 @@
+#box {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  transition: left 0.1s linear, top 0.1s linear;
+}
+#container {
+  height: 900px;
+  width: 99%;
+  border: 3px solid gray;
+  position: absolute;
+  padding: 0;
+}
+
+#buttonleft {
+  width: 80px;
+  height: 80px;
+  top: 690px;
+  left: 740px;
+  position: absolute;
+  z-index: 999;
+}
+#buttonright {
+  width: 80px;
+  height: 80px;
+  top: 690px;
+  left: 960px;
+  position: absolute;
+  z-index: 999;
+}
+
+#buttonup {
+  width: 80px;
+  height: 80px;
+  top: 635px;
+  left: 850px;
+  position: absolute;
+  z-index: 999;
+}
+
+#buttondown {
+  width: 80px;
+  height: 80px;
+  top: 740px;
+  left: 850px;
+  position: absolute;
+  z-index: 999;
+}
+
+#door{
+  background-color: brown;
+  height: 70px;
+  width: 20px;
+  position: absolute;
+  right: 0;
+  top: 400px;
+}
+
+#info-door{
+  padding: 20px;
+  background-color: rgb(56, 56, 56);
+  color: aliceblue;
+  position: absolute;
+  left: 10px;
+  bottom: 150px;
+  display: none;
+}
